@@ -8,6 +8,8 @@ from sentence_transformers import (
     SentenceTransformerTrainingArguments
 )
 
+# TODO needs to account for sentiment similarity and topic similarity.
+
 # ---- CONFIG ----
 MODEL_NAME   = 'BAAI/bge-base-en-v1.5'
 SAVE_PATH    = './bge_finetuned_movie_reviews'
