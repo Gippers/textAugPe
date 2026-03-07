@@ -1,0 +1,154 @@
+conda-forge/linux-64                                        Using cache
+conda-forge/noarch                                          Using cache
+
+Pinned packages:
+
+  - python=3.11
+
+
+Transaction
+
+  Prefix: /home/tom/.local/share/mamba/envs/augpe
+
+  Updating specs:
+
+   - accelerate
+
+
+  Package                            Version  Build                               Channel           Size
+──────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + accelerate                        1.13.0  pyhcf101f3_0                        conda-forge      275kB
+  + attr                               2.5.2  h39aace5_0                          conda-forge       68kB
+  + cuda-crt-tools                   12.9.86  ha770c72_2                          conda-forge       29kB
+  + cuda-cudart                      12.9.79  h5888daf_0                          conda-forge       23kB
+  + cuda-cudart_linux-64             12.9.79  h3f2d84a_0                          conda-forge      197kB
+  + cuda-cuobjdump                   12.9.82  hffce074_1                          conda-forge      245kB
+  + cuda-cupti                       12.9.79  h676940d_1                          conda-forge        2MB
+  + cuda-nvcc-tools                  12.9.86  he02047a_2                          conda-forge       27MB
+  + cuda-nvdisasm                    12.9.88  hffce074_1                          conda-forge        6MB
+  + cuda-nvrtc                       12.9.86  hecca717_1                          conda-forge       67MB
+  + cuda-nvtx                        12.9.79  hecca717_1                          conda-forge       29kB
+  + cuda-nvvm-tools                  12.9.86  h4bc722e_2                          conda-forge       24MB
+  + cuda-version                        12.9  h4f385c5_3                          conda-forge       22kB
+  + cudnn                          9.10.2.21  hbcb9cd8_0                          conda-forge       20kB
+  + gmp                                6.3.0  hac33072_2                          conda-forge      460kB
+  + gmpy2                              2.2.1  py311h92a432a_2                     conda-forge      203kB
+  + jinja2                             3.1.6  pyhcf101f3_1                        conda-forge      121kB
+  + libcap                              2.77  h3ff7636_0                          conda-forge      121kB
+  + libcublas                       12.9.1.4  h676940d_1                          conda-forge      468MB
+  + libcudnn                       9.10.2.21  hf7e9902_0                          conda-forge      527MB
+  + libcudnn-dev                   9.10.2.21  h58dd1b1_0                          conda-forge       44kB
+  + libcudss                         0.6.0.5  h58dd1b1_0                          conda-forge       36MB
+  + libcufft                        11.4.1.4  hecca717_1                          conda-forge      162MB
+  + libcufile                       1.14.1.1  hbc026e6_1                          conda-forge      970kB
+  + libcurand                     10.3.10.19  h676940d_1                          conda-forge       46MB
+  + libcusolver                    11.7.5.82  h676940d_2                          conda-forge      205MB
+  + libcusparse                   12.5.10.65  hecca717_2                          conda-forge      209MB
+  + libmagma                           2.9.0  ha7672b3_6                          conda-forge      554MB
+  + libnl                             3.11.0  hb9d3cd8_0                          conda-forge      741kB
+  + libnvjitlink                     12.9.86  hecca717_2                          conda-forge       31MB
+  + libsystemd0                        259.3  h6569c3e_0                          conda-forge      525kB
+  + libtorch                           2.7.1  cuda129_generic_h79bc694_203        conda-forge      877MB
+  + libudev1                           259.3  h6569c3e_0                          conda-forge      169kB
+  + libuv                             1.51.0  hb03c661_1                          conda-forge      895kB
+  + llvm-openmp                       22.1.0  h4922eb0_0                          conda-forge        6MB
+  + markupsafe                         3.0.3  py311h3778330_1                     conda-forge       27kB
+  + mpc                                1.3.1  h24ddda3_1                          conda-forge      117kB
+  + mpfr                               4.2.1  h90cbb55_3                          conda-forge      635kB
+  + mpmath                             1.4.0  pyhd8ed1ab_0                        conda-forge      464kB
+  + nccl                            2.29.3.1  h4d09622_0                          conda-forge      293MB
+  + networkx                           3.6.1  pyhcf101f3_0                        conda-forge        2MB
+  + nomkl                                1.0  h5ca1d4c_0                          conda-forge        4kB
+  + optree                            0.19.0  py311hdf67eae_0                     conda-forge      480kB
+  + psutil                             7.2.2  py311haee01d2_0                     conda-forge      232kB
+  + pybind11                           3.0.2  pyh7a1b43c_0                        conda-forge      246kB
+  + pybind11-global                    3.0.2  pyhc7ab6ef_0                        conda-forge      241kB
+  + pytorch                            2.7.1  cuda129_generic_py311_hc87bd2f_203  conda-forge       30MB
+  + rdma-core                           61.0  h192683f_0                          conda-forge        1MB
+  + sleef                              3.9.0  ha0421bc_0                          conda-forge        2MB
+  + sympy                             1.14.0  pyh2585a3b_106                      conda-forge        5MB
+  + triton                             3.3.1  cuda129py311h2e1fb5d_2              conda-forge      167MB
+
+  Change:
+──────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  - _openmp_mutex                        4.5  20_gnu                              conda-forge     Cached
+  + _openmp_mutex                        4.5  7_kmp_llvm                          conda-forge        8kB
+  - libgoogle-cloud                   2.39.0  h9d11ab5_1                          conda-forge     Cached
+  + libgoogle-cloud                   2.39.0  hdb79228_0                          conda-forge        1MB
+  - libgoogle-cloud-storage           2.39.0  hdbdcf42_1                          conda-forge     Cached
+  + libgoogle-cloud-storage           2.39.0  hdbdcf42_0                          conda-forge      804kB
+  - libopentelemetry-cpp              1.21.0  h9692893_2                          conda-forge     Cached
+  + libopentelemetry-cpp              1.21.0  hb9b0907_1                          conda-forge      885kB
+  - libopentelemetry-cpp-headers      1.21.0  ha770c72_2                          conda-forge     Cached
+  + libopentelemetry-cpp-headers      1.21.0  ha770c72_1                          conda-forge      363kB
+  - libre2-11                     2025.11.05  h0dc7533_1                          conda-forge     Cached
+  + libre2-11                     2025.11.05  h7b12aa8_0                          conda-forge      211kB
+  - orc                                2.2.2  hbb90d81_1                          conda-forge     Cached
+  + orc                                2.2.2  h19cb568_0                          conda-forge        1MB
+  - re2                           2025.11.05  h5301d42_1                          conda-forge     Cached
+  + re2                           2025.11.05  h5301d42_0                          conda-forge       27kB
+
+  Downgrade:
+──────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  - aws-c-auth                         0.9.6  hb9c0fe4_1                          conda-forge     Cached
+  + aws-c-auth                         0.9.3  hef928c7_0                          conda-forge      133kB
+  - aws-c-compression                  0.3.2  h8b1a151_0                          conda-forge     Cached
+  + aws-c-compression                  0.3.1  h8b1a151_9                          conda-forge       22kB
+  - aws-c-event-stream                 0.5.9  h841be55_2                          conda-forge     Cached
+  + aws-c-event-stream                 0.5.7  h28f887f_1                          conda-forge       59kB
+  - aws-c-http                       0.10.10  hf621c6d_0                          conda-forge     Cached
+  + aws-c-http                        0.10.7  ha8fc4e3_5                          conda-forge      225kB
+  - aws-c-io                          0.26.1  h3ca20c3_1                          conda-forge     Cached
+  + aws-c-io                          0.23.3  hdaf4b65_5                          conda-forge      181kB
+  - aws-c-mqtt                        0.14.0  ha25ca29_1                          conda-forge     Cached
+  + aws-c-mqtt                        0.13.3  hc63082f_11                         conda-forge      216kB
+  - aws-c-s3                          0.11.5  h9b5df67_3                          conda-forge     Cached
+  + aws-c-s3                          0.11.3  h06ab39a_1                          conda-forge      151kB
+  - aws-checksums                     0.2.10  h8b1a151_0                          conda-forge     Cached
+  + aws-checksums                      0.2.7  h8b1a151_5                          conda-forge       77kB
+  - aws-crt-cpp                       0.37.3  hb153662_0                          conda-forge     Cached
+  + aws-crt-cpp                       0.35.4  h8824e59_0                          conda-forge      409kB
+  - aws-sdk-cpp                     1.11.747  h133b1ee_1                          conda-forge     Cached
+  + aws-sdk-cpp                     1.11.606  h20b40b1_10                         conda-forge        3MB
+  - libabseil                     20260107.1  cxx17_h7b12aa8_0                    conda-forge     Cached
+  + libabseil                     20250512.1  cxx17_hba17884_0                    conda-forge        1MB
+  - libarrow                          23.0.1  h711ef25_3_cpu                      conda-forge     Cached
+  + libarrow                          23.0.0  h258748b_2_cuda                     conda-forge        6MB
+  - libarrow-acero                    23.0.1  h635bf11_3_cpu                      conda-forge     Cached
+  + libarrow-acero                    23.0.0  h635bf11_2_cuda                     conda-forge      612kB
+  - libarrow-compute                  23.0.1  h53684a4_3_cpu                      conda-forge     Cached
+  + libarrow-compute                  23.0.0  h8c2c5c3_2_cuda                     conda-forge        3MB
+  - libarrow-dataset                  23.0.1  h635bf11_3_cpu                      conda-forge     Cached
+  + libarrow-dataset                  23.0.0  h635bf11_2_cuda                     conda-forge      612kB
+  - libarrow-substrait                23.0.1  hb4dd7c2_3_cpu                      conda-forge     Cached
+  + libarrow-substrait                23.0.0  h3f74fd7_2_cuda                     conda-forge      520kB
+  - libgrpc                           1.78.0  h1d1128b_1                          conda-forge     Cached
+  + libgrpc                           1.73.1  h3288cfb_1                          conda-forge        8MB
+  - libparquet                        23.0.1  h7376487_3_cpu                      conda-forge     Cached
+  + libparquet                        23.0.0  h7376487_2_cuda                     conda-forge        1MB
+  - libprotobuf                       6.33.5  h2b00c02_0                          conda-forge     Cached
+  + libprotobuf                       6.31.1  h49aed37_4                          conda-forge        4MB
+  - pyarrow                           23.0.1  py311h38be061_0                     conda-forge     Cached
+  + pyarrow                           23.0.0  py311h38be061_0                     conda-forge       27kB
+  - pyarrow-core                      23.0.1  py311h66caee6_0_cpu                 conda-forge     Cached
+  + pyarrow-core                      23.0.0  py311hb8e52f1_0_cuda                conda-forge        5MB
+  - s2n                                1.7.0  ha63dd3a_1                          conda-forge     Cached
+  + s2n                                1.6.2  he8a4886_1                          conda-forge      394kB
+
+  Summary:
+
+  Install: 51 packages
+  Change: 8 packages
+  Downgrade: 22 packages
+
+  Total download: 4GB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+Confirm changes: [Y/n] 

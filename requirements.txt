@@ -7,3 +7,4 @@ pandas>=2.2.0
 tqdm>=4.66.0
 great_tables
 datasets
+accelerate>=1.1.0
