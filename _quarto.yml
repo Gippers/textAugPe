@@ -1,0 +1,6 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "AUG-PE Algorithm for Synthetic Data Generation with Text"
